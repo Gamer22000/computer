@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  background: black;
+}
+
+.container{
+  max-width: 1315px;
+  width: 100%;
+  margin: 0 auto;
+}
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col-1{
+  width: 102px;
+  height: 112px;
+  margin-right: 30px;
+}
+
+.col-3a{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.col-4{
+  width: 33.3%;
+  text-align: center;
+}
+
+@import "header";
+@import "main-screen";
+@import "line";
+@import "about";
+@import "advantages";
+@import "partners";
+@import "start";
+@import "program";
+@import "teachers";
+@import "footer";

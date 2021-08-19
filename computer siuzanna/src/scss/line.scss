@@ -1,0 +1,47 @@
+.line{
+
+  background: #121212;
+  &__button{
+    padding: 10px 30px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  &__items{
+    margin: 36px 81px;
+    &-left{
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150%;
+      opacity: 0.4;
+      margin-right: 30px;
+    }
+    &-right{
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 150%;
+    }
+  }
+
+  &__progress{
+
+    &-bar{
+      background: #7C6AFA;
+      padding: 0.1px 355px;
+    }
+
+    &-metrics{
+      &-items{
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+  }
+
+}
